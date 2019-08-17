@@ -1,0 +1,71 @@
+<!DOCTYPE>
+<html>  
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Artist - Jason Arnold</title>
+  <link rel="stylesheet" href=".\CSS\stylesheet.css" type="text/css" media="screen">
+  </head>
+    <body>
+        <main id="swup" class="transition-fade">
+          <section class = "backdrop">
+              <a class="btn" href="./page2.html" >Enter</a>
+                <div class="row">
+                <div class="column">
+                <h2 class = "contact-info">Contact info</h2>
+              <p class ="contact-info2">Email:  <a href="https://www.facebook.com/jason.arnold.102/">facebook.Jason.Arnold.102</a></p>
+                    
+
+              <ul class ="inner-content hidden">
+                  <li>B</li>
+                  <li>R</li>
+                  <li>A</li>
+                  <li>I</li>
+                  <li>N</li>
+                  <li>S</li>
+                  <li>C</li>
+                  <li>A</li>
+                  <li>P</li>
+                  <li>E</li>
+              </ul>
+                   </div> 
+                    
+           
+  <div class="column2">
+    <img src="./CSS/Images/Art1.JPG" alt="Nature"  onclick="myFunction(this);">
+  </div>
+  <div class="column2">
+    <img src="./CSS/Images/Art2.JPG" alt="Snow"  onclick="myFunction(this);">
+  </div>
+  <div class="column2">
+    <img src="./CSS/Images/IMG-0154.JPG" alt="Mountains"  onclick="myFunction(this);">
+  </div>
+  <div class="column2">
+    <img src="./CSS/Images/IMG-0153.JPG" alt="Lights" onclick="myFunction(this);">
+  </div>
+
+
+<div class="container2">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>            
+                    
+            
+               </div>      
+                  
+     </section>
+      </main>
+    
+     </body>
+</html>
